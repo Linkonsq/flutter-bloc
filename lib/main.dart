@@ -36,7 +36,7 @@ class CounterScreen extends StatelessWidget {
           builder: (context, state) {
             return Text(
               'Count: ${state.count}',
-              style: const TextStyle(fontSize: 32),
+              style: const TextStyle(fontSize: 30),
             );
           },
         ),
